@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    border: 2px dotted green;
+    padding: 30px;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+a:link {
+    color: #600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cfc;
+}
+
+a:hover {
+    color: #ccf;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ccc;
+}
+
+.learn-list {
+    list-style-type: square;
+                           
+}
+
+.learn-list {
+    list-style-type: square;                
+}
+
+.learn-bullet:nth-child(2n) {
+    border: 1px solid red;
+    backgrond: #666;
+}
+
+.learn-bullet {
+    color: #000;
+}
+
+.learn-css-grid {
+    display: grid;
+}
+
+.learn-css-grid-image {
+    width: 250px;
+    height: auto;
+    
+}
+
