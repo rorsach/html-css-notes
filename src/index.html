@@ -1,67 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	    <meta charset="utf-8">
-	    <title>HTML / CSS Practice</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML / CSS Practice</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
 
-    <body id="home">
+  <body id="home">
 
-	    <h1>HTML / CSS Practice</h1>
-            <ul class="learn-list">
-                <li class="learn-bullet"><a href="#cssGrid">CSS Grid</a></li>
-                <li class="learn-bullet"><a href="#cssGrid">Before / After content replacement</a></li>
-                <li class="learn-bullet"><a href="#">Flexbox</a></li>
-                <li class="learn-bullet"><a href="#">Form Layout</a></li>
-                <li class="learn-bullet"><a href="#">Table color coordination</a></li>
-                <li class="learn-bullet"><a href="#">CSS Animation</a></li>
-                <li class="learn-bullet"><a href="#">HTML Viewport / Responsive Design / Adaptive Design</a></li>
-                <li class="learn-bullet"><a href="#">Charset</a></li>
-                <li class="learn-bullet"><a href="#">Specificity</a></li>
-                <li class="learn-bullet"><a href="#">BEM SMACSS OOCSS</a></li>
-                <li class="learn-bullet"><a href="#">Fonts / imports</a></li>
-                <li class="learn-bullet"><a href="#">CSS Box model</a></li>
-                <li class="learn-bullet"><a href="#">Phrasing content vs Flow content</a></li>
-                <li class="learn-bullet"><a href="#">Inline element vs Block Level element</a></li>
-                <li class="learn-bullet"><a href="#">Floats</a></li>
-                <li class="learn-bullet"><a href="#">Position absolute, fixed, static, relative.</a></li>
-                <li class="learn-bullet"><a href="#">Star Rating component</a></li>
-                <li class="learn-bullet"><a href="#">Overlay modal</a></li>
-                <li class="learn-bullet"><a href="#">Stacking Context</a></li>
-                <li class="learn-bullet"><a href="#">BFC</a></li>
-                <li class="learn-bullet"><a href="#">Clearing Floats</a></li>
-                <li class="learn-bullet"><a href="#">Browser specific styling issues</a></li>
-                <li class="learn-bullet"><a href="#">Screen Reader</a></li>
-            </ul>
+    <div class="wrapper">
+      <h1>HTML / CSS Practice</h1>
+      <ul class="learn-list">
+        <li class="learn-bullet"><a class="learn-shortcut" href="#cssGrid">CSS Grid</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#cssGrid">Before / After content replacement</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Flexbox</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Form Layout</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Table color coordination</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#cssAnimation">CSS Animation</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">HTML Viewport / Responsive Design / Adaptive Design</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Charset</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Specificity</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">BEM SMACSS OOCSS</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Fonts / imports</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">CSS Box model</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Phrasing content vs Flow content</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Inline element vs Block Level element</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Floats</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Position absolute, fixed, static, relative.</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Star Rating component</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Overlay modal</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Stacking Context</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">BFC</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Clearing Floats</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#">Browser specific styling issues</a></li>
+        <li class="learn-bullet"><a class="learn-shortcut" href="#screenReader">Screen Reader</a></li>
+      </ul>
 
-            <h2 name="cssGrid">CSS Grid</h2>
-            <section>
-                <div class="learn-css-grid">
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Aliquam posuere.  Nam euismod tellus id erat.</p>
-                    <p>Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Phasellus at dui in ligula mollis ultricies.</p>
-                    <p><img class="learn-css-grid-image" src="img/capacitor.jpg" alt="Capacitor image"/></p>                  
-                </div>
-            </section>
+      <section>
+        <a name="cssGrid"></a>
+        <h2>CSS Grid</h2>
+        
+        <div class="learn-css-grid">
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Aliquam posuere.  Nam euismod tellus id erat.</p>
+          <p>Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Phasellus at dui in ligula mollis ultricies.</p>
+          <p><img class="learn-css-grid-image" src="img/capacitor.jpg" alt="Capacitor image"/></p>
+        </div>
+      </section>
 
-            <h2>Media Queries for Mobile Specific Layouts</h2>
-            @media only screen
 
-            <h2>CSS Efficiency</h2>
-            Care of batching
-            
-            <h2>BFC</h2>
-            <p><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context">https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context</a></p>
 
-            <h2>CSS Priority</h2>
-            Specificity and inheritance.
+      
+      <a name="cssAnimation"></a>
+      <h2>CSS Animation</h2>
 
-            
-            
-            <h2>Screen reader</h2>
-            https://webaim.org/techniques/css/invisiblecontent/
-            
-            <script src="bundle.js"></script>
+      <button class="animated-button" >Hover effect on this button</button>
+      <p><a class="animated-button" href="http://www.example.com/">Hoverr effect on this anchor</a></p>
+      <div class="small-box animated-button"></div>
+      <div class="small-box animated-button"></div>
+      <div class="small-box animated-button"></div>
 
-    </body>
+      <div class="clearfix"></div>
+
+      
+      <a name="mediaQueries"></a>
+      <h2>Media Queries for Mobile Specific Layouts</h2>
+      @media only screen
+
+
+
+      
+      <h2>CSS Efficiency</h2>
+      <p>CSS is read from right to left so it is more efficient to use fewer selectors.</p>
+      <p>Care of batching</p>
+
+      <p>Most inefficient selector</p>
+      <pre>
+#someID *
+      </pre>
+
+      <h2>BFC</h2>
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context">https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context</a></p>
+
+      <pre>
+flow-root
+overflow
+flex
+grid items
+position: absolute
+      </pre>
+
+
+      <h2>CSS Priority</h2>
+      Specificity and inheritance.
+
+
+      <a name="screenReader"></a>
+      <h2>Screen reader</h2>
+
+      https://webaim.org/techniques/css/invisiblecontent/
+
+      <script src="bundle.js"></script>
+
+    </div>
+  </body>
 </html>
